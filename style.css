@@ -339,7 +339,7 @@ footer{
         height: 750px;
     }
     footer{
-        margin-top: 5000px;
+        display: none;
     }
     #why{
         height: 240px;
