@@ -328,6 +328,20 @@ footer{
     
     
 }
+@media only screen and (max-width: 600px) {
+    li a{
+    width: 70px;
+    }
+    #future{
+        height: 320px;
+    }
+    #what{
+        height: 750px;
+    }
+    footer{
+        margin-top: 1300px;
+    }
 
+}
 
   
