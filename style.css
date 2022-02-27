@@ -328,7 +328,7 @@ footer{
     
     
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 480px) {
     li a{
     width: 80px;
     }
