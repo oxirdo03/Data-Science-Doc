@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Patua+One&family=Permanent+Marker&display=swap');
+
+body{
+    background-color: rgb(241, 209, 236);
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    
+    height: 50px;
+    background-color: purple;
+    
+    
+    
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: purple;
+    width: 100%;
+    
+}
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    width: 200px;
+    font-family: 'Acme', sans-serif;
+}
+  
+  
+li a:hover {
+    background-color: rgb(194, 27, 194);
+}
+
+main{
+    
+    
+    height: 2000px;
+}
+#top{
+   
+}
+
+h1{
+    text-align: center;
+    margin-top: 8rem;
+    font-size: 2.5rem;
+    font-family: 'Permanent Marker', cursive;
+    color: rgb(70, 27, 70);
+}
+
+#what{
+    
+    height: 500px;
+    width: 100%;
+    
+    
+}
+#text{
+    width: 50%;
+    
+    height: 100%;
+    display: inline-block;
+    
+    
+}
+#text h2{
+    margin-left: 5%;
+    margin-top: 5%;
+    font-size: 2rem;
+    font-family: 'Acme', sans-serif;
+}
+#text p{
+    margin-left: 5%;
+    margin-top: 5%;
+    font-size: 1.25rem;
+    font-family: 'Patua One', cursive;
+}
+#image{
+    float: right;
+    width: 40%;
+    
+    display: inline-block;
+    
+    
+}
+#image img{
+    width: 80%;
+    margin-top: 15%;
+    margin-right: 10%;
+
+}
+
+#why{
+    height: 500px;
+    width: 100%;
+    
+    margin-top: 50px;
+
+}
+#image1{
+    width: 40%;
+    
+    height: 100%;
+    display: inline-block;
+    
+    
+
+}
+#text1{
+    float: right;
+    width: 55%;
+    height: 100%;
+    
+    display: inline-block;
+    
+
+}
+#text1 h2{
+    margin-left: 5%;
+    margin-top: 15%;
+    font-size: 2rem;
+    font-family: 'Acme', sans-serif;
+}
+#text1 p{
+    margin-left: 5%;
+    margin-top: 5%;
+    font-size: 1.25rem;
+    font-family: 'Patua One', cursive;
+}
+#image1 img{
+    width: 80%;
+    margin-top: 8%;
+    margin-left: 12%;
+
+}
+#future{
+    height: 500px;
+    width: 100%;
+    
+    margin-top: 50px;
+    
+
+}
+#text2{
+    width: 50%;
+    
+    height: 100%;
+    display: inline-block;
+    
+
+}
+#image2{
+    float: right;
+    width: 40%;
+    height: 100%;
+    
+    display: inline-block;
+    
+
+}
+
+#text2 h2{
+    margin-left: 5%;
+    margin-top: 10%;
+    font-size: 2rem;
+    font-family: 'Acme', sans-serif;
+}
+#text2 p{
+    margin-left: 5%;
+    margin-top: 5%;
+    font-size: 1.25rem;
+    font-family: 'Patua One', cursive;
+}
+
+#image2 img{
+    width: 85%;
+    margin-top: 15%;
+    margin-right: 10%;
+
+}
+
+#submit{
+    border: 8px solid rgb(68, 22, 68);
+    background-color: rgb(226, 19, 226);
+    margin-top: 50px;
+    text-align: center;
+    height: 150px;
+    width: 80%;
+    margin-left: 10%;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+}
+
+#submit h3{
+    color: rgb(41, 17, 41);
+}
+
+#iztochnici{
+
+}
+footer{
+    
+    text-align: right;
+    height: 50px;
+    color: rgb(252, 11, 252);
+}
+
+@media only screen and (max-width: 600px) {
+    body{
+        height: 2500px;
+    }
+    li a{
+        width: 120px;
+    }
+    #what{
+        height: 630px;
+    }
+    #text{
+        display: block;
+        width: 100%;
+    }
+    #text h2{
+        width: 100%;
+        margin: 0;
+
+    }
+    #text p{
+        margin: 0;
+
+    }
+    #image{
+        display: block;
+        float: left;
+        width: 100%;
+    }
+    #image img{
+        margin-right: 0;
+        margin-left: 10%;
+    }
+    #why{
+        height: 280px;
+        margin-top: 400px;
+    }
+    #text1{
+        display: block;
+        float: left;
+        margin-top: 130px;
+        width: 100%;
+    }
+    #text1 h2{
+        width: 100%;
+
+    }
+    #text1 p{
+
+    }
+    #image1{
+        display: block;
+        float: left;
+        width: 100%;
+    }
+    #future{
+        height: 260px;
+        margin-top: 600px;
+    }
+    #text2{
+        display: block;
+        width: 100%;
+    }
+    #text2 h2{
+        width: 100%;
+
+    }
+    #text2 p{
+
+    }
+    #image2{
+        display: block;
+        float: left;
+        width: 100%;
+    }
+
+    #image img{
+        width: 80%;
+        margin-top: 15%;
+        margin-right: 10%;
+    
+    }
+    #image1 img{
+        width: 80%;
+        margin-top: 0;
+        margin-right: 0;
+    
+    }
+    #image2 img{
+        width: 80%;
+        margin-top: 15%;
+        margin-left: 10%;
+    
+    }
+    #submit{
+        margin-top: 400px;
+        height: 300px;
+    }
+    #submit h3{
+        margin-left: 50px;
+    }
+    footer{
+        margin-top: 1200px;
+    }
+    
+    
+}
+
+
+  
