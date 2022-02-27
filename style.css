@@ -344,6 +344,9 @@ footer{
     #why{
         height: 240px;
     }
+    body{
+        height: 3000px;
+    }
 
 }
 
